@@ -1,17 +1,12 @@
 # Gujarati Voice Transcriber
 
-A local AI app that transcribes Gujarati voice memos to text using QVAC SDK.
+A local AI app that transcribes Gujarati voice memos to text using the QVAC SDK. All inference runs on-device — no cloud, no API key, no data leaves your machine.
+
+## Requirements
+- Node.js v22.17 or newer
+- macOS 14.0+ (Intel or Apple Silicon)
+- 4GB+ RAM
 
 ## Install
-npm install @qvac/sdk
-
-## Run
-node index.js
-
-## SDK Version
-@qvac/sdk 0.19.0+
-
-## Functions Used
-- loadModel (WHISPER_TINY)
-- transcribe
-- unloadModel
+```bash
+npm install
