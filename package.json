@@ -1,0 +1,14 @@
+{
+  "name": "gujarati-voice-transcriber",
+  "version": "1.0.0",
+  "description": "Local AI app that transcribes Gujarati voice memos to text using QVAC SDK",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@qvac/sdk": "^0.19.0"
+  },
+  "license": "MIT"
+}
